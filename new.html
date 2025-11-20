@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamika Rasanjana</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+
+<body>
+<script src="script.js"></script>
+
+<!--Nav Bar-->
+  <header>
+    <button onclick="toggleLightMode()" class="mode-btn">Light Mode</button>
+       <h1 class="title">Chamika Rasanjana</h1>
+       <nav class="simple-nav">
+       <a href="#home">Home</a>
+       <a href="#about">About</a>
+       <a href="#projects">Projects</a>
+       <a href="#contact">Contact</a>
+      </nav>
+  </header>
+
+ <!--HOME -->
+  <section id="home" class="section home">
+    <h2>Hello, I'm <span class="highlight">Chamika Rasanjana</span></h2>
+    <p>Back-End Developer | Full-Stack Python Developer | Freelancer</p>
+    <img src="https://itzmechami.wuaze.com/profile.jpg" alt="Profile_logo" class="profile">
+    <div>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="https://itzmechami.wuaze.com/assets/chamika-rasanjana-resume.pdf" class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- ABOUT-->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>
+      Passionate Python Developer and Data Science student at Sabaragamuwa University of Sri Lanka.I specialize in Python-based applications, data-driven solutions, and modern web technologies.I bring strong problem-solving skills and real-world project experience.
+    </p>
+    <h3>Technologies I Work With</h3>
+    <div class="simpletags">
+      <span>Python</span>
+      <span>Django</span>
+      <span>Flask</span>
+      <span>FastAPI</span>
+      <span>JavaScript</span>
+      <span>MySQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+    </div>
+  </section>
+
+
+  <!-- SKILLS-->
+<section id="skills" class="section skills">
+   <h2>My Skills</h2>
+   <div class="skill-box">
+     <p>Python</p>
+   <div class="progress"><div style="width: 90%;"></div></div>
+   </div>
+   <div class="skill-box">
+     <p>Django</p>
+   <div class="progress"><div style="width: 80%;"></div></div>
+   </div>
+   <div class="skill-box">
+     <p>FastAPI</p>
+   <div class="progress"><div style="width: 75%;"></div></div>
+   </div>
+   <div class="skill-box">
+     <p>JavaScript</p>
+   <div class="progress"><div style="width: 60%;"></div></div>
+   </div>
+   <div class="skill-box">
+     <p>HTML / CSS</p>
+   <div class="progress"><div style="width: 85%;"></div></div>
+   </div>
+   <div class="skill-box">
+      <p>MySQL</p>
+   <div class="progress"><div style="width: 70%;"></div></div>
+   </div>
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section projects">
+  <h2>Projects</h2>
+  <div class="projectlist">
+    <div class="project-card">
+      <img src="https://i.ibb.co/Ps9zNNxC/photo-2025-11-20-14-44-53.jpg" alt="Netflix Subtitle Adder">
+      <h3>netflix_subtitles_adder</h3>
+      <p>A Chrome extension that adds Sinhala subtitles to Netflix videos.</p>
+      <a href="https://github.com/chamika1/netflix_subtitles_adder" class="btn small">View Project</a>
+    </div>
+    <div class="project-card">
+      <img src="https://i.ibb.co/PZfqJ6yd/Screenshot-2025-11-20-145407.png" alt="Subtitle Generator Sinhala">
+      <h3>subtitle-gen-sinhala</h3>
+      <p>Generates Sinhala video subtitles using Google Gemini API + Tkinter UI.</p>
+      <a href="https://github.com/chamika1/substitle-gen-sinhala" class="btn small">View Project</a>
+    </div>
+    <div class="project-card">
+      <img src="https://i.ibb.co/MDBhFWjR/photo-2025-11-20-14-45-20.jpg" alt="A/L Physics Assistant">
+      <h3>A/L Physics Learning Assistant</h3>
+      <p>An AI learning tool for Sri Lankan A/L Physics students.</p>
+      <a href="https://github.com/chamika1/study_helper" class="btn small">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2>Get In Touch</h2>
+  <p> I'm currently looking for new opportunities.Feel free to reach out anytime!</p>
+  <h3>Contact Details</h3>
+  <p>Phone: +94 78 768 5355</p>
+  <p>WhatsApp: +94 75 949 9076</p>
+  <p>Email: rasanjanachamika@gmail.com</p>
+  <p>Location: Baddegama, Southern Province, Sri Lanka</p>
+  <h3>Contact Me</h3>
+  <form class="simple-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Chamika Rasanjana. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

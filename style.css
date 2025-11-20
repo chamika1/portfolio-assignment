@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: #00c8ff;
+}
+
+
+
+/* HEADER */
+header {
+  background: #00c8ff;
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  color: black;
+  font-size: 1.8rem;
+}
+
+.simple-nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.simple-nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*HOME SECTION*/
+.home h2 {
+  font-size: 2.2rem;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #00c8ff;
+  margin: 20px 0;
+  object-fit: cover;
+  box-shadow: 0 0 20px #00c8ff55;
+}
+
+
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #00c8ff;
+  color: black;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #009ec7;
+  color: white;
+}
+
+.btn.small {
+  padding: 8px 15px;
+}
+
+
+
+/* ABOUT SECTION*/
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.simpletags {
+  margin-top: 20px;
+}
+
+.simpletags span {
+  display: inline-block;
+  background: #00c8ff;
+  color: black;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+/* PROJECT SECTION */
+.projects h2 {
+  color: #00c8ff;
+}
+
+.projectlist {
+  display: grid;          
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.project-card {
+  background: #111;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #00c8ff;
+  text-align: left;
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  color: #00c8ff;
+}
+
+
+
+/*CONTACT SECTION*/
+.contact p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.simple-form {
+  max-width: 350px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.simple-form input,
+.simple-form textarea {
+  padding: 10px;
+  background: black;
+  border: 2px solid #00c8ff;
+  border-radius: 6px;
+  color: white;
+}
+
+.simple-form textarea {
+  resize: vertical;
+}
+
+
+
+/* FOOTER*/
+.footer {
+  background: black;
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #00c8ff;
+}
+
+.footer p {
+  margin: 0;
+  color: #00c8ff;
+}
+
+
+
+/*  MODE BUTTON */
+.mode-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #0078a9;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.mode-btn:hover {
+  background: #009ec7;
+}
+
+
+
+/* LIGHT MODE */
+.light {
+  background: white;
+  color: black;
+}
+
+
+
+/* Header Light*/
+.light header {
+  background: #009ec7;
+}
+.light .title {
+  color: white;
+}
+.light .simple-nav a {
+  color: white;
+}
+
+
+/* Home Light*/
+.light .profile {
+  border-color: #009ec7;
+  box-shadow: 0 0 12px #009ec755;
+}
+.light .highlight {
+  color: #009ec7;
+}
+
+
+/* About Light*/
+.light .simpletags span {
+  background: #009ec7;
+  color: white;
+}
+
+
+/* Project Light Mode */
+.light .project-card {
+  background: white;
+  color: black;
+  border-color: #009ec7;
+}
+.light .project-card h3 {
+  color: #009ec7;
+}
+
+
+/* Buttons Light Mode */
+.light .btn {
+  background: #009ec7;
+  color: white;
+}
+
+
+/* Forms Light Mode */
+.light .simple-form input,
+.light .simple-form textarea {
+  background: white;
+  color: black;
+  border-color: #009ec7;
+}
+
+
+
+/* Footer Light Mode */
+.light .footer {
+  background: white;
+  border-top-color: #009ec7;
+}
+.light .footer p {
+  color: #009ec7;
+}
+
+
+
+/* Mode Button Light */
+.light .mode-btn {
+  background: white;
+  color: #009ec7;
+  border: 2px solid #009ec7;
+}
+
+
+
+/*SKILLS */
+.skills h2 {
+  color: #00c8ff;
+  margin-bottom: 25px;
+}
+
+.skill-box {
+  max-width: 500px;
+  margin: 0 auto 20px;
+  text-align: left;
+}
+
+.skill-box p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.progress {
+  width: 100%;
+  background: #333;
+  border-radius: 6px;
+  height: 10px;
+}
+
+.progress div {
+  height: 10px;
+  background: #00c8ff;
+  border-radius: 6px;
+}
